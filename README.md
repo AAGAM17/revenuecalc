@@ -44,7 +44,7 @@ cargo test
 ## Built With
 
 - [Rust](https://www.rust-lang.org/) - The programming language used
-- [slint](https://github.com/yourusername/slint) - The UI library used
+- [slint](https://slint.dev/) - The UI library used
 
 ## Authors
 
