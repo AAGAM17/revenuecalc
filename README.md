@@ -1,6 +1,6 @@
-# Rust Tax Calculator
+# Rust Revenue Calculator
 
-This is a simple tax calculator written in Rust. It calculates the tax based on the income and the country of residence.
+This is a simple revenue calculator written in Rust. It calculates the tax based on the income and the country of residence as per the tax slab and also divides the income via Profit First Method.
 
 ## Getting Started
 
