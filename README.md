@@ -44,7 +44,7 @@ cargo test
 
 ## Authors
 
-- **Aagam Shah** - *Initial work* - [AAGAM17](https://github.com/AAGAM17)
+- **Aagam Shah** - *work by* - [AAGAM17](https://github.com/AAGAM17)
 
 ## License
 
