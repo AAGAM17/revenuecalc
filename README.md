@@ -1,40 +1,54 @@
-# Slint Rust Template
+# Rust Tax Calculator
 
-A template for a Rust application that's using [Slint](https://slint.rs) for the user interface.
+This is a simple tax calculator written in Rust. It calculates the tax based on the income and the country of residence.
 
-## About
+## Getting Started
 
-This template helps you get started developing a Rust application with Slint as toolkit
-for the user interface. It demonstrates the integration between the `.slint` UI markup and
-Rust code, how to trigger react to callbacks, get and set properties and use basic widgets.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Usage
+### Prerequisites
 
-1. Install Rust by following the [Rust Getting Started Guide](https://www.rust-lang.org/learn/get-started).
-   Once this is done, you should have the ```rustc``` compiler and the ```cargo``` build system installed in your path.
-2. Install [`cargo-generate`](https://github.com/cargo-generate/cargo-generate)
-    ```
-    cargo install cargo-generate
-    ```
-3. Set up a sample project with this template
-    ```
-    cargo generate --git https://github.com/slint-ui/slint-rust-template --name my-project
-    cd my-project
-    ```
-3. Build with cargo
-    ```
-    cargo build
-    ```
-4. Run the application binary
-     ```
-     cargo run
-     ```
+- Rust: You can download Rust from [the official website](https://www.rust-lang.org/tools/install).
 
-We recommend using an IDE for development, along with our [LSP-based IDE integration for `.slint` files](https://github.com/slint-ui/slint/blob/master/tools/lsp/README.md). You can also load this project directly in [Visual Studio Code](https://code.visualstudio.com) and install our [Slint extension](https://marketplace.visualstudio.com/items?itemName=Slint.slint).
+### Installing
 
-## Next Steps
+1. Clone the repository
+```bash
+git clone https://github.com/AAGAM17/revenuecalc.git
+```
+2. Navigate to the cloned repository
+```bash
+cd revenuecalc
+```
+3. Build the project
+```bash
+cargo build
+```
+4. Run the project
+```bash
+cargo run
+```
 
-We hope that this template helps you get started and you enjoy exploring making user interfaces with Slint. To learn more
-about the Slint APIs and the `.slint` markup language check out our [online documentation](https://slint.dev/docs).
+## Running the tests
 
-Don't forget to edit this README to replace it by yours
+Explain how to run the automated tests for this system.
+
+```bash
+cargo test
+```
+
+## Built With
+
+- [Rust](https://www.rust-lang.org/) - The programming language used
+- [slint](https://github.com/yourusername/slint) - The UI library used
+
+## Authors
+
+- **Aagam Shah** - *Initial work* - [AAGAM17](https://github.com/AAGAM17)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+```
+
+Please replace the placeholders with your actual data.
