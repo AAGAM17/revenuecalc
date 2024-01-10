@@ -1,0 +1,65 @@
+import { Button, VerticalBox, LineEdit, ComboBox } from "std-widgets.slint";
+
+export component AppWindow inherits Window {
+    in property <string> results: "";
+    callback divide-income(string);
+    callback country-selected(string);
+    title: "Revenue By Profit First Method";
+    background: #1e2b3d;
+    GridLayout {
+        padding: 50px;
+        spacing: 25px;
+        Row {
+            Text {
+                text: "Enter Total Revenue";
+                horizontal-alignment: center;
+                font-size: 24px;
+                font-weight: 900;
+                color: #ffffff;
+            }
+        }
+
+        Row {
+            income := LineEdit {
+                horizontal-alignment: center;
+                font-size: 19px;
+                placeholder-text: "Enter Your Revenue";
+                height: 35px;
+            }
+        }
+
+        Row {
+            country := ComboBox {
+                height: 35px;
+                model: ["USA"];
+            }
+        }
+
+        Row {
+            Button {
+                text: "Calculate";
+                primary: true;
+                height: 35px;
+                clicked => {
+                    divide-income(income.text);
+                    country-selected(country.model[0]);
+                }
+            }
+        }
+
+        Row {
+            VerticalBox {
+                Rectangle {
+                    background: #f2f2f2;
+                    height: 100px;
+                    Text {
+                        text: root.results;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
