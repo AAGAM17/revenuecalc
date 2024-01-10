@@ -28,6 +28,10 @@ cargo build
 ```bash
 cargo run
 ```
+5. Bundle the Project Via [Cargo Bundle](https://github.com/burtonageo/cargo-bundle)
+```bash
+cargo bundle --release
+```
 
 ## Running the tests
 
