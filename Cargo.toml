@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["AAGAM SHAH <aagamcshah172005@gmai;.com>"]
 edition = "2021"
 build = "build.rs"
+description = "A Desktop app That Divides Income Using Profit First Method and Tax Slab."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -15,4 +16,4 @@ slint-build = "1.0"
 
 [package.metadata.bundle]
 name = "revenuecalc"
-identifier = "io.github.rodgrt1."
+identifier = "io.github.rodgrt1.revenuecalc"
